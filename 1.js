@@ -1,8 +1,7 @@
-let a = prompt('inter value');
-let b = +a;
+let a = +prompt('inter value');
 
-if (typeof b === 'number' && !isNaN(b)) {
-    if (b % 2 === 0) {
+if (typeof a === 'number' && !isNaN(a)) {
+    if (a % 2 === 0) {
         console.log('value is even');
     } else {
         console.log('value is odd');
